@@ -89,7 +89,6 @@ public class LcBookmarkReader {
 			Link feedNextLink = feed.getLink(Link.REL_NEXT);
 			nextUrl = (feedNextLink == null ? null : feedNextLink.getResolvedHref()
 					.toString());
-			nextUrl = null; 
 		} 
 
 		return result;

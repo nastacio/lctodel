@@ -65,7 +65,7 @@ public class DeliciousWriter {
 				if ("bookmark".equals(catTerm)) {
 					continue;
 				}
-				tags = tags + " " + catTerm;
+				tags = catTerm + "," + tags;
 			}
 			Date date = entry.getUpdated();
 			boolean replace = true;
